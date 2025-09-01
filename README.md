@@ -22,20 +22,20 @@
 
 ## Installation
 
-1. **Clone the repository**
-
 ```bash
+# Clone the repository
 git clone https://github.com/adarsh1016/blogify.git
-cd Blogify
-Install dependencies
+cd blogify
+
+# Install dependencies
 npm install
 
-Create a .env file
+# Create a .env file
 PORT=8000
 MONGO_URL=your_mongodb_connection_string
 Replace your_mongodb_connection_string with your actual MongoDB connection URL.
 
-Run the app
+#Run the app
 npm start
 
 Then open your browser and go to http://localhost:8000.
